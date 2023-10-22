@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black; /* You should replace #bgDark2 with your desired color value */
+}
+.spinner-card {
+  width: 91.666667%;
+  max-width: 1200px;
+  min-height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.topcourses-heading {
+  text-align: center;
+  font-size: 1.875rem; /* equivalent to 3xl in Tailwind CSS */
+  font-weight: bold;
+  color: white;
+}
+.nav-bar {
+  background-color: black; /* You should replace #bgDark with your desired background color */
+  padding-top: 1rem; /* Equivalent to py-4 in Tailwind CSS */
+  padding-bottom: 1rem; /* Equivalent to py-4 in Tailwind CSS */
+}
+.filter-div {
+  width: 91.666667%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: max-content;
+  gap: 1rem; /* Equivalent to space-x-4 in Tailwind CSS */
+  margin-left: auto;
+  margin-right: auto;
+  gap-y: 1rem; /* Equivalent to gap-y-4 in Tailwind CSS */
+  padding-top: 1rem; /* Equivalent to py-4 in Tailwind CSS */
+  padding-bottom: 1rem; /* Equivalent to py-4 in Tailwind CSS */
+  justify-content: center;
+}
+.button-filter {
+  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind CSS */
+  padding-left: 0.75rem; /* Equivalent to px-2 in Tailwind CSS */
+  padding-right: 0.75rem; /* Equivalent to px-2 in Tailwind CSS */
+  padding-top: 0.5rem; /* Equivalent to py-1 in Tailwind CSS */
+  padding-bottom: 0.5rem; /* Equivalent to py-1 in Tailwind CSS */
+  border-radius: 0.375rem; /* Equivalent to rounded-md in Tailwind CSS */
+  font-weight: 500; /* Equivalent to font-medium in Tailwind CSS */
+  color: white; /* Equivalent to text-white in Tailwind CSS */
+  background-color: black; /* Equivalent to bg-black in Tailwind CSS */
+  border-width: 0.125rem; /* Equivalent to border-2 in Tailwind CSS */
+  border-color: white; /* Equivalent to border-2 in Tailwind CSS */
+  transition: all 0.2s ease; /* Equivalent to transition-all duration-200 in Tailwind CSS */
+}
+
+.button-filter:hover {
+  background-color: gray;
+}
+.container-all-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; /* Equivalent to gap-4 in Tailwind CSS */
+  margin-bottom: 1rem; /* Equivalent to mb-4 in Tailwind CSS */
+}
+.card-div {
+  border: 2px solid white;
+  background-color: black; /* You should replace #bgDark with your desired background color */
+  background-opacity: 0.8; /* Equivalent to bg-opacity-80 in Tailwind CSS */
+  width: 300px;
+  border-radius: 0.375rem; /* Equivalent to rounded-md in Tailwind CSS */
+  overflow: hidden;
+}
+img {
+  position: relative;
+  height: 200px;
+  width: 300px;
+}
+.button-div {
+  border-radius: 50%; /* Equivalent to rounded-full in Tailwind CSS */
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  right: 50rem; /* Equivalent to right-2 in Tailwind CSS */
+  bottom: -12px; /* Equivalent to bottom-[-12px] in Tailwind CSS */
+  display: grid;
+  place-items: center;
+}
+.course-title {
+  color: white; /* Equivalent to text-white in Tailwind CSS */
+  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind CSS */
+  font-weight: 600; /* Equivalent to font-semibold in Tailwind CSS */
+  line-height: 1.5; /* Equivalent to leading-6 in Tailwind CSS */
+}
+.course-para {
+  margin-top: 0.1rem; /* Equivalent to mt-2 in Tailwind CSS */
+  color: white; /* Equivalent to text-white in Tailwind CSS */
+}
+.course-content-div {
+  padding: 1rem; /* Equivalent to p-4 in Tailwind CSS */
+}
+.like-button {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border: 3px solid white;
+  margin-left: 270px;
+  position: absolute;
+  margin-top: -20px;
+  border-radius: 50%;
+}
